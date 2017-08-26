@@ -1,0 +1,96 @@
+body{
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	font-family: Raleway, sans-serif;
+	color: #0d2c40;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+a{
+	font-family: Raleway, sans-serif;
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0 20px;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover{
+	border-color: #fff;
+}
+
+h2{
+	font-family: Raleway, sans-serif;
+	color: #0d2c40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: "Droid Serif";
+	line-height: 26px;
+	font-size: 18px;
+}
+
+header{
+	background: #f15b31;
+	padding: 30px 20px;
+}
+
+nav{
+	background: #00a6b3;
+	padding: 20px 0;
+}
+
+main{
+	width: 850px;
+	margin: 35px auto;
+}
+
+img{
+	margin: 40px 8px 0 8px;
+}
+
+footer{	
+	text-transform: uppercase;
+	padding: 0 20px;
+	background: #0d2c40;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.8em;
+	font-weight: 500;
+}
+
+.copyright{
+	float: left;
+}
+
+.message{
+	float: right;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name{
+	color: #f15b31;
+	font-weight: 700;
+}
